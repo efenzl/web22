@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    background:url(../images/flowers.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.center {
+    padding-top: 200px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.small {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: none;
+    }
+
+    .large {
+        display: none;
+    }
+
+    .small {
+        display: block;
+    }
+}
