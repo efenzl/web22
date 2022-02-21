@@ -7,6 +7,18 @@ body {
     box-sizing: border-box;
 }
 
+h1 {
+    margin: 0px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 50px;
+    margin-left: 3px;
+}
+
+
+
 .column {
     float: left;
     width: 33%;
@@ -22,14 +34,37 @@ body {
     display: table;
     clear: both;
 }
-  
+
+.header {
+    padding-left: 16px;
+    text-align: left;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
     text-align: left;
     background-color: #f1f1f1;
 }
-  
+
+li {
+    margin-bottom: 10px;
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
 
 @media screen and (max-width: 600px) {
     .column {
