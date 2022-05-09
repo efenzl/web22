@@ -1,6 +1,6 @@
 body {
     font-family: 'Montserrat', sans-serif;
-    margin: 50px;
+    margin: 40px;
     background:url(../images/mountainForest.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -18,7 +18,7 @@ h1 {
 
 p {
     margin-top: 5px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-left: 3px;
 }
 
